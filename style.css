@@ -14,3 +14,13 @@ body {
     margin: 0;
     padding: 0;
 }
+
+.main {
+    background-image: url(./img/Background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.section {
+    height: 100vh;
+}
