@@ -25,6 +25,8 @@ body {
     background-image: url(./img/Background.png);
     background-repeat: no-repeat;
     background-size: contain;
+    align-content: center;
+    text-align: center;
 }
 
 .container {
@@ -40,9 +42,10 @@ body {
     color: var(--branco-principal);
     display: block;
     text-decoration: none;
+    margin-bottom: 1em;
 }
 
-.botao-secundario {
+.botao__secundario {
     background-color: transparent;
     border-radius: 8px;
     padding: 16px;
@@ -58,4 +61,45 @@ body {
 .container__titulo {
     font-size: 28px;
     font-weight: 700;
+}
+
+.container__imagem {
+    margin: 1em 0 2em 0;
+}
+
+.container__caixa {
+    margin: 0 6em;
+}
+
+/*Segunda Secao*/
+
+.secundario__imagem {
+    width: 80%;
+}
+
+.secundario {
+    align-items: center;
+    margin: 0 10em;
+}
+
+.descricao__titulo {
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--branco-principal);
+    margin-bottom: 0.1em;
+}
+
+.descricao__texto {
+    color: var(--cinza-secundario);
+}
+
+/*Terceira Secao*/
+
+.secundario__botao {
+    display: inline-block;
+    margin-top: 1em;
+}
+
+.container__descricao {
+    padding: 2em;
 }
