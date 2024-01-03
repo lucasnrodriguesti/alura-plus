@@ -4,6 +4,7 @@
     --branco-principal: #FFFFFF;
     --cinza-secundario: #C0C0C0;
     --botaoazul: #167BF7;
+    --botao-link-active: #73b0fa;
     --cor-de-fundo: #00030C;
     --font-family: 'Inter';
 }
@@ -45,6 +46,10 @@ body {
     margin-bottom: 1em;
 }
 
+.container__botao:hover {
+    color: var(--cinza-secundario);
+}
+
 .botao__secundario {
     background-color: transparent;
     border-radius: 8px;
@@ -71,7 +76,7 @@ body {
     margin: 0 6em;
 }
 
-/*Segunda Secao*/
+/* Segunda Secao */
 
 .secundario__imagem {
     width: 80%;
@@ -93,7 +98,7 @@ body {
     color: var(--cinza-secundario);
 }
 
-/*Terceira Secao*/
+/* Terceira Secao */
 
 .secundario__botao {
     display: inline-block;
@@ -102,4 +107,60 @@ body {
 
 .container__descricao {
     padding: 2em;
+}
+
+/* Quinta Secao */
+
+.dispositivos {
+    text-align: center;
+}
+
+.dispositivos__titulo {
+    font-size: 48px;
+    color: var(--branco-principal);
+}
+
+.dispositivos__lista {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 5em 0;
+}
+
+.lista__item {
+    font-size: 32px;
+    color: var(--branco-principal);
+}
+
+/* Footer */
+
+.rodape {
+    text-align: center;
+    margin: 5em 3em;
+}
+
+.rodape__lista {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    margin-top: 1em;
+}
+
+.lista__link a {
+    color: var(--branco-principal);
+    text-decoration: none;
+}
+
+.lista__link a:hover {
+    color: var(--botaoazul);
+}
+
+.lista__link a:active {
+    color: var(--botao-link-active);
+}
+
+.rodape__texto {
+    font-size: 14px;
+    color: var(--cinza-secundario);
+    margin: 1em 0;
 }
